@@ -1,0 +1,11 @@
+// jsconfig.json — config for editor path resolution and intellisense
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "dist"]
+}

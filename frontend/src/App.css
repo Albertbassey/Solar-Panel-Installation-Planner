@@ -1,0 +1,21 @@
+/* src/App.css */
+
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure main content sits below fixed Navbar */
+.main-content {
+  padding-top: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
