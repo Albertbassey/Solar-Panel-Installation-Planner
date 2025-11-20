@@ -14,6 +14,11 @@ import errorHandler from './middleware/errorHandler.js';
 dotenv.config();
 const app = express();
 
+// Root route for Render health check
+app.get('/', (req, res) => {
+  res.send('Backend is running 🚀');
+});
+
 // Middleware
 app.use(cors());
 app.use(express.json());
