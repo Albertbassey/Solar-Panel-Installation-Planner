@@ -2,6 +2,13 @@
 
 A MERN (MongoDB, Express, React, Node) application to help design and plan residential solar panel installations. Provides site surveys, system sizing, layout visualization, cost estimates, and basic project management features.
 
+## Project link
+- https://solar-panel-installation-planner.vercel.app/
+
+## Github repo
+- https://github.com/Albertbassey/Solar-Panel-Installation-Planner.git
+
+
 ## Features
 - User authentication (JWT)
 - Project creation and management
